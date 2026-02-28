@@ -22,6 +22,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Menu, X, Zap, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "../../theme-toggle";
 
 // ── Nav config ────────────────────────────────────────────────────────────────
 
@@ -256,6 +257,7 @@ export default function Navbar() {
               </div>
             </SheetContent>
           </Sheet>
+          <ThemeToggle />
         </div>
       </div>
     </header>
